@@ -1,10 +1,17 @@
 # TreeMap
 
+http://wiki.jikexueyuan.com/project/java-enhancement/java-twentyseven.html
+
+TreeMap 基于二叉树，可以保持Key的大小顺序，搜索的时间复杂度为O(lgn)
+
+
+# TreeSet
+
 **Leetcode: 220**
 
 http://wiki.jikexueyuan.com/project/java-enhancement/java-twentyeight.html
 
-TreeMap 基于二叉树，可以保持Key的大小顺序，搜索的时间复杂度为O(lgn)
+我们知道 TreeMap 是一个有序的二叉树，那么同理 TreeSet 同样也是一个有序的，它的作用是提供有序的 Set 集合。
 
 _____________________________________________________________
 
