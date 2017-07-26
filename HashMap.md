@@ -1,0 +1,3 @@
+# HashMap
+
+**Leetcode: 1**
