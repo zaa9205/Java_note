@@ -7,4 +7,4 @@ _________________________________
 
 **return a? b:c means 
 if(a) b;
-else c;
+else c;**
