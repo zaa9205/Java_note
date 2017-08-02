@@ -4,11 +4,11 @@ Leetcode: 55, 57
 
 http://www.cnblogs.com/fingerboy/p/5478073.html
 
-http://www.cnblogs.com/bayes/p/5474728.html
-
 ____________________________________________
 
 **ArrayList - 顺序存储结构的表**
+
+http://www.cnblogs.com/bayes/p/5474728.html
 
 - 该类的内部维护了一个集合数组，因此查询速度快，但是增删速度较慢，因此用于查询较多写入删掉少的场景中
 
