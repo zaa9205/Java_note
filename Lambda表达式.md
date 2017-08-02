@@ -9,4 +9,8 @@ http://blog.oneapm.com/apm-tech/226.html
 
 **基本语法:**
 
-**(parameters) -> expression or (parameters) ->{ statements;}**
+**(parameters) -> expression**
+
+**or**
+
+**(parameters) ->{ statements;}**
