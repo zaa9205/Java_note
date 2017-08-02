@@ -15,8 +15,10 @@ http://www.cnblogs.com/bayes/p/5474728.html
 - Array和ArrayList的区别:
 
   http://blog.qianlicao.cn/translate/2016/03/09/array-vs-arraylist/
-
-  Array是静态的，Array被初始化之后，数组长度就不能再改变了。ArrayList是可以动态改变大小的。那么，什么时候使用Array，什么时候使用ArrayList?答案是：当我们不知道到底有多少个数据元素的时候，就可使用ArrayList；如果知道数据集合有多少个元素，就用Array。但Array和ArrayList的查找时间复杂度都是O(1).
+  
+  Array是静态的，Array被初始化之后，数组长度就不能再改变了。ArrayList是可以动态改变大小的。那么，什么时候使用Array，什么时候使用ArrayList?答案是：当我们不知道到底有多少个数据元素的时候，就可使用ArrayList；如果知道数据集合有多少个元素，就用Array。但Array和ArrayList的查找时间复杂度都是O(1).
+  
+  Array.length(); ArrayList.size();
 
 - 注意：ArrayList类只支持对象类型，不支持 基础数据类型。就是说ArrayList对象只能存放对象，不能存放基础数据类型的数据。
 
