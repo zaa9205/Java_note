@@ -1,6 +1,6 @@
 ## List -- 实现List接口的集合类，特点是有序可重复: 添加的顺序和遍历的顺序一致
 
-Leetcode: 55, 57
+Leetcode: 2, 55, 57
 
 http://www.cnblogs.com/fingerboy/p/5478073.html
 
