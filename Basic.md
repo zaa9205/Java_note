@@ -23,3 +23,23 @@ http://www.runoob.com/java/java-operators.html
 "<< =" 左移位赋值运算符	C << = 2等价于C = C << 2
 
 ">> ="	右移位赋值运算符	C >> = 2等价于C = C >> 2
+
+_________________________________
+
+http://www.cnblogs.com/Hugooscar/p/6043713.html
+
+length:用于获取数组长度。
+
+length():用于获取字符串长度。
+
+size():用于获取泛型集合有多少个元素。
+
+eg:
+```java
+Collection<String> col = new ArrayList<String>();
+col.add("Hello");
+col.add("World");
+col.add("Java");
+int sizeCol = col.size();//此处sizeCol=3
+System.out.println("Col size:"+sizeCol);
+```
