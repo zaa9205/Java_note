@@ -1,13 +1,11 @@
 **int 范围： (Integer.MAX_VALUE) 2^31 - 1 ~ -2^31 (Integer.MIN_VALUE)**
 
 **long 范围：2^63 - 1 ~ -2^63**
-
 _________________________________
 
 **return a? b:c means 
 if(a) b;
 else c;**
-
 _________________________________
 
 http://www.runoob.com/java/java-operators.html
@@ -23,7 +21,6 @@ http://www.runoob.com/java/java-operators.html
 "<< =" 左移位赋值运算符	C << = 2等价于C = C << 2
 
 ">> ="	右移位赋值运算符	C >> = 2等价于C = C >> 2
-
 _________________________________
 
 http://www.cnblogs.com/Hugooscar/p/6043713.html
@@ -43,3 +40,7 @@ col.add("Java");
 int sizeCol = col.size();//此处sizeCol=3
 System.out.println("Col size:"+sizeCol);
 ```
+_________________________________
+String, StringBuffer, StringBuilder
+
+http://blog.csdn.net/u010575093/article/details/50728538
