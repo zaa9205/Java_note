@@ -5,3 +5,17 @@ _______________________________
 String, StringBuffer, StringBuilder: http://blog.csdn.net/u010575093/article/details/50728538
 
 StringBuilder.append(); - 在String的后面直接增加
+StringBuilder.toString(); -转为string
+
+1. String、StringBuffer、StringBuilder区别 
+答：Java平台提供了两种类型的字符串：String和StringBuffer/StringBuilder，它们可以储存和操作字符串。 
+而StringBuffer/StringBuilder类表示的字符串对象可以直接进行修改。 
+StringBuilder是Java 5中引入的，它和StringBuffer的方法完全相同，区别在于它是在单线程环境下使用的，因为它的所有方面都没有被synchronized修饰，因此它的效率也比StringBuffer要高。
+
+2. 面试题 - 什么情况下用+运算符进行字符串连接比调用StringBuffer/StringBuilder对象的append方法连接字符串性能更好？ 
+答：如果使用少量的字符串操作，使用 (+运算符)连接字符串； 
+如果频繁的对大量字符串进行操作，则使用 
+1：全局变量或者需要多线程支持则使用StringBuffer； 
+2：局部变量或者单线程不涉及线程安全则使有StringBuilder。
+
+那为什么我们很少见到StringBuilder呢？原因很简单，因为我们有时候很难确定我们创建的系统会不会是多线程的，如果考虑到以后扩展的可能性，则更难确定，所以我们更愿意使用StringBuffer，因为它是线程安全的，不用担心以后扩展。
