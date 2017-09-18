@@ -6,7 +6,9 @@ String, StringBuffer, StringBuilder: http://blog.csdn.net/u010575093/article/det
 
 对于StringBuffer同样适用：
 StringBuilder.append(); - 在String的后面直接增加
+
 StringBuilder.toString(); -转为string
+
 StringBuilder.reverse(); -倒序一遍
 
 1. String、StringBuffer、StringBuilder区别 
