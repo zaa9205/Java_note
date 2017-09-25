@@ -1,6 +1,6 @@
 # String
 
-Leetcode: 43. Multiply Strings
+Leetcode: 043.Multiply String;067.Add Binary;214.Shortest Palindrome
 _______________________________
 String: http://www.cnblogs.com/YSO1983/archive/2009/12/07/1618564.html
 
