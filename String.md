@@ -4,7 +4,11 @@ Leetcode: 043.Multiply String;067.Add Binary;214.Shortest Palindrome
 _______________________________
 String: http://www.cnblogs.com/YSO1983/archive/2009/12/07/1618564.html
 
-StringBuffer, StringBuilder: http://blog.csdn.net/u010575093/article/details/50728538
+StringBuffer, StringBuilder: 
+
+http://blog.csdn.net/u010575093/article/details/50728538
+
+http://www.cnblogs.com/Qian123/p/5193076.html
 
 对于StringBuffer同样适用：
 StringBuilder.append(); - 在String的后面直接增加
