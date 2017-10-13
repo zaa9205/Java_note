@@ -35,3 +35,5 @@ http://www.cnblogs.com/skywang12345/p/3308807.html
 LinkedList.peek() - 此方法返回此列表的头元素，或null，如果此列表为空 （但不移除）
 
 LinkedList.remove() - 此方法返回并移除此deque队列表示的队列的头部
+
+LinkedList.add(E) - 将指定元素E的deque队列的末尾。此方法相当于addLast(E)。
