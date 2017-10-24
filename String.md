@@ -30,3 +30,37 @@ StringBuilder是Java 5中引入的，它和StringBuffer的方法完全相同，�
  
 那为什么我们很少见到StringBuilder呢？原因很简单，因为我们有时候很难确定我们创建的系统会不会是多线程的，如果考虑到以后扩展的可能性，则更难确定，所以我们更愿意使用StringBuffer，因为它是线程安全的，不用担心以后扩展。
 
+_______________________________
+## String int 互相转换
+## int -> String
+
+int i=12345;
+
+String s="";
+
+第一种方法：s=i+""; 
+
+第二种方法：s=String.valueOf(i);
+
+这两种方法有什么区别呢？作用是不是一样的呢？是不是在任何下都能互换呢？
+
+## String -> int
+
+s="12345";
+
+int i;
+
+第一种方法：i=Integer.parseInt(s);
+
+第二种方法：i=Integer.valueOf(s).intValue();
+
+这两种方法有什么区别呢？作用是不是一样的呢？是不是在任何下都能互换呢？
+
+以下是答案：
+
+第一种方法：s=i+"";  //会产生两个String对象
+
+第二种方法：s=String.valueOf(i); //直接使用String类的静态方法，只产生一个对象
+
+第一种方法：i=Integer.parseInt(s);//直接使用静态方法，不会产生多余的对象，但会抛出异常
+第二种方法：i=Integer.valueOf(s).intValue();//Integer.valueOf(s) 相当于 new Integer(Integer.parseInt(s))，也会抛异常，但会多产生一个对象
